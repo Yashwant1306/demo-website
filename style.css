@@ -4,16 +4,23 @@
     background-color: rgb(229, 228, 230);
     opacity: 0.7;
 }
+.Logo{
+    margin-left: 50px;
+}
+.image1{
+    height: 80px;
+    width: 80px;
+}
 .list1{
     list-style: none;
     display: flex;
-    padding-top: 20px ;
+    padding-top: 15px ;
 }
 .links{
     text-decoration: none;
     padding-right: 60px;
-    font-size: 18px;
-   
+    font-size: 21px;
+    color: black;
 }
 #backgd{
     background-image:url("/images/billboard.jpg");
@@ -22,7 +29,6 @@
     background-size: cover;
     width: 1255px;
     height: 100vh;
-    
 }
 .head{
     text-align: center;
@@ -35,7 +41,101 @@
     justify-content: space-between;
     background-color: rgb(229, 228, 230);
     opacity: 0.7;
-    margin-top: 180px;
+    margin-top: 185px;
 }
-
-   
+.textstyle{
+    margin : 20px 0px 0px 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.buttonbar{
+    background-color:#50ccff;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    height: 30px;
+    padding:10px 30px 25px 30px;
+    margin: 10px;
+    margin-right: 50px;
+}
+.buttonbar:hover{
+    background-color: black;
+}
+.section{
+    background-color: rgb(251, 251, 251);
+    width: 80%;
+    margin-left: 125px;
+}
+.text2{
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+.cutter{
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.part1{
+    padding-left: 75px;
+    padding-top: 7px;
+}
+.part2{
+    padding-left: 168px;
+    padding-top: 7px;
+}
+.part3{
+    padding-left: 195px;
+    padding-top: 7px;
+}
+.slogen1{
+    font-size: 22px;
+    padding-right: 30px;
+}
+.slogen2{
+    font-size: 22px;
+    padding-left: 50px;
+}
+.slogen3{
+    font-size: 22px;
+    padding-left: 85px;
+}
+.tag2{
+    padding-left: 50px;
+}
+.tag3{
+    padding-left: 80px;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+}
+.items{
+    height: 410px;
+}
+.author1{
+    background-color: rgb(251, 251, 251);
+    width: 80%;
+    margin-left: 125px;
+}
+.boom{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    padding-bottom: 50px;
+}
+.actor-contain{
+    display: flex;
+    justify-content: space-between;
+}
+.photo1{
+    align-items: center;
+    border-radius: 200%;
+}
